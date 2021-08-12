@@ -31,5 +31,5 @@ module.exports = {
   ],
   email: null,
   phone: null,
-  address: 'Chicago, IL, USA',
+  address: 'Northern Virginia, USA',
 };
