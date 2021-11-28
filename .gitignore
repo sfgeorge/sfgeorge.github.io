@@ -112,3 +112,6 @@ public
 
 # TernJS port file
 .tern-port
+
+# IDE files
+.*.sw?
