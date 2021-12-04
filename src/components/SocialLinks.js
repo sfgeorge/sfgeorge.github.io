@@ -5,10 +5,10 @@ export default function SocialLinks() {
   return (
     <section className="contact-section bg-black">
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-md-center">
 
-          <div className="col-md-4 mb-3 mb-md-0">
-            {config.email ?
+          {config.email ?
+            <div className="col-md-4 mb-3 mb-md-0">
               <div className="card py-4 h-100">
                 <div className="card-body text-center">
                   <i className="fas fa-envelope text-primary mb-2"></i>
@@ -19,12 +19,13 @@ export default function SocialLinks() {
                   </div>
                 </div>
               </div>
-            : <div />
-            }
-          </div>
+            </div>
 
-          <div className="col-md-4 mb-3 mb-md-0">
-            {config.address ?
+            : <div />
+          }
+
+          {config.address ?
+            <div className="col-md-4 mb-3 mb-md-0">
               <div className="card py-4 h-100">
                 <div className="card-body text-center">
                   <i className="fas fa-location-arrow text-primary mb-2"></i>
@@ -33,12 +34,13 @@ export default function SocialLinks() {
                   <div className="small text-black-50">{config.address}</div>
                 </div>
               </div>
-            : <div />
-            }
-          </div>
+            </div>
 
-          <div className="col-md-4 mb-3 mb-md-0">
-            {config.phone ?
+            : <div />
+          }
+
+          {config.phone ?
+            <div className="col-md-4 mb-3 mb-md-0">
               <div className="card py-4 h-100">
                 <div className="card-body text-center">
                   <i className="fas fa-envelope text-primary mb-2"></i>
@@ -47,9 +49,10 @@ export default function SocialLinks() {
                   <div className="small text-black-50">{config.phone}</div>
                 </div>
               </div>
+            </div>
+
             : <div />
-            }
-          </div>
+          }
 
         </div>
 
