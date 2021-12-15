@@ -32,4 +32,5 @@ module.exports = {
   email: null,
   phone: null,
   address: 'Northern Virginia, USA',
+  linkedin: 'https://www.linkedin.com/in/sfgeorge/',
 };
