@@ -23,7 +23,7 @@
     "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.0",
     "smoothscroll-polyfill": "^0.4.4",
-    "typescript": "^3.7.4"
+    "typescript": "^3.9.10"
   },
   "scripts": {
     "develop": "gatsby develop",
