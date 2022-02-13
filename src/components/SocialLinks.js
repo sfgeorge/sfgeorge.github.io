@@ -27,7 +27,7 @@ export default function SocialLinks() {
             {config.address ?
               <div className="card py-4 h-100">
                 <div className="card-body text-center">
-                  <i className="fas fa-envelope text-primary mb-2"></i>
+                  <i className="fas fa-location-arrow text-primary mb-2"></i>
                   <h4 className="text-uppercase m-0">Location</h4>
                   <hr className="my-4" />
                   <div className="small text-black-50">{config.address}</div>
