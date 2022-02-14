@@ -60,11 +60,11 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Engineering Management</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                I foster team growth all throughout recruitment, interviewing,
+                onboarding, mentoring, ownership, goal-setting, engagement, and
+                career growth.
               </p>
             </div>
           </div>
