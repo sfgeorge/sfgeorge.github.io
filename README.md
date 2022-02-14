@@ -5,7 +5,9 @@ _Stephen George's Website_
 
 ## Install
 
-Make sure that you have the Gatsby CLI program installed:
+You can have a website like mine too!
+
+First, make sure that you have the Gatsby CLI program installed:
 
 ```sh
 npm install --global gatsby-cli
