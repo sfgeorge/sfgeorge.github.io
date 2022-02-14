@@ -1,4 +1,11 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+yarn.lock
+
 # Build directory
+/public
 .DS_Store
 
 # Logs
@@ -105,3 +112,6 @@ public
 
 # TernJS port file
 .tern-port
+
+# IDE files
+.*.sw?
