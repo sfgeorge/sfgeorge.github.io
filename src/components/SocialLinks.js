@@ -62,37 +62,7 @@ export default function SocialLinks() {
                   <h4 className="text-uppercase m-0">Contact</h4>
                   <hr className="my-4" />
                   <div className="small text-black-50">
-                      <i className={`fas fa-angle-right mr-1`}></i>
-                    <a target="_blank" href={`${config.linkedin}`}>
-                      {config.linkedin}
-                    </a>
-                  </div>
-                  <div className="small text-black-50">
                       <i className={`fas fa-hand-point-right mr-1`}></i>
-                    <a target="_blank" href={`${config.linkedin}`}>
-                      {config.linkedin}
-                    </a>
-                  </div>
-                  <div className="small text-black-50">
-                      <i className={`fas fa-caret-square-right mr-1`}></i>
-                    <a target="_blank" href={`${config.linkedin}`}>
-                      {config.linkedin}
-                    </a>
-                  </div>
-                  <div className="small text-black-50">
-                      <i className={`fas fa-chevron-circle-right mr-1`}></i>
-                    <a target="_blank" href={`${config.linkedin}`}>
-                      {config.linkedin}
-                    </a>
-                  </div>
-                  <div className="small text-black-50">
-                      <i className={`fas fa-arrow-circle-right mr-1`}></i>
-                    <a target="_blank" href={`${config.linkedin}`}>
-                      {config.linkedin}
-                    </a>
-                  </div>
-                  <div className="small text-black-50">
-                      <i className={`fas fa-arrow-alt-circle-right mr-1`}></i>
                     <a target="_blank" href={`${config.linkedin}`}>
                       {config.linkedin}
                     </a>
