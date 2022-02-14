@@ -38,18 +38,17 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">About Me</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+
+              I am a passionate Engineering Manager who embodies the belief that
+              teams work best when their managers strive to provide an
+              environment of trust, career development and encouragement to push
+              to one's full potential.  I've been successfully leading teams to
+              grow and produce results for over 10 years.
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
       </div>
     </section>
 
