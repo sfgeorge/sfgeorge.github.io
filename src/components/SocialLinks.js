@@ -59,7 +59,7 @@ export default function SocialLinks() {
               <div className="card py-4 h-100">
                 <div className="card-body text-center">
                   <i className={`fab fa-linkedin`}></i>
-                  <h4 className="text-uppercase m-0">Contact</h4>
+                  <h4 className="text-uppercase m-0">Contact / Resume</h4>
                   <hr className="my-4" />
                   <div className="small text-black-50">
                     <i className={`fas fa-hand-point-right mr-1`}></i>
