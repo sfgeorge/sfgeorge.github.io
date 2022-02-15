@@ -54,6 +54,7 @@ const IndexPage = () => (
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
+
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
@@ -78,10 +79,19 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
-                  <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                  <h4 className="text-white">Cyber Security</h4>
+                  <p className="my-2 text-white-50">
+                    I have extensive experience keeping security and
+                    observability as shift-left and forefront concerns,
+                    implementing projects that need to adhere to compliance
+                    standards including HIPAA, SOC 2, and PCI.
+
+                  </p>
+                  <p className="my-2 text-white-50">
+                    From hands-on experience with penetration testing tools and
+                    remediation to directing teams on managing risk, I have
+                    well-rounded knowledge in keeping systems and applications
+                    secure.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -98,11 +108,15 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
-                  <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                  <h4 className="text-white">Cloud and Infrastructure</h4>
+                  <p className="my-2 text-white-50">
+                    Managing CI/CD of SaaS solutions to multi-cloud GCP and AWS environments, I have direct experience with AWS WAF, CloudFront, EC2, S3, Google Storage, and related services.
+                  </p>
+                  <p className="my-2 text-white-50">
+                    With regards to containerization, I have experience with Docker Compose, turning applications into services that are easily scaled up/down.
+                  </p>
+                  <p className="my-2 text-white-50">
+                    I have extensive experience with Linux Redhat and Debian-based systems, as well as provisioning tools such as Ansible and AWS CloudFormation.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -110,6 +124,51 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={demoImage1} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">VoIP / Telecommunications</h4>
+                  <p className="my-2 text-white-50">
+                    My team was responsible for the development and operation of a critical voice communications platform that continues to secure over $8M annual recurring revenue.  The highly-performant platform manages dynamic Interactive Voice Response (IVR) applications in real time, handling hundreds of incoming calls per second using Adhearsion on JRuby.
+                  </p>
+                  <p className="my-2 text-white-50">
+                    I have extensive experience with network packet capture analysis for VoIP troubleshooting, optimization and security purposes.  I'm well-versed with several VoIP technologies including SIP, RTP, MRCPv2, and WebRTC.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={demoImage2} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">Web Development</h4>
+                  <p className="my-2 text-white-50">
+                    Well-versed with Full-stack Ruby, Python and PHP development, I have designed, implemented, and maintained several significant e-commerce applications for over 20 years.  I have experience with SQL-compliant databases, Redis and NoSQL solutions including ElasticSearch.
+                  </p>
+                  <p className="my-2 text-white-50">
+                    On the frontend, I have experience with React, JQuery, plain-old JavaScript, and CSS.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
