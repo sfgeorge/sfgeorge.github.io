@@ -27,7 +27,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
-    "deploy": "npm run clean && gatsby build && gh-pages -d public -b gh-pages && git fetch --all",
+    "deploy": "npm run build && gh-pages -d public -b gh-pages && git fetch --all",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write '**/*.js'",
