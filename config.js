@@ -13,6 +13,11 @@ module.exports = {
   // social
   socialLinks: [
     {
+      icon: 'fa-researchgate',
+      name: 'ResearchGate',
+      url: 'https://www.researchgate.net/profile/Stephen-George-8',
+    },
+    {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/sfgeorge',
@@ -21,11 +26,6 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/sfgeorge/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/mrmre',
     },
 /* .fa-linux .fa-amazon .fa-asterisk .fa-aws .fa-compass .fa-dev .fa-docker .fa-git .fa-html5 .fa-jedi .fa-jedi-order .fa-jira .fa-laptop .fa-laptop-medical .fa-mandalorian .fa-meetup  .fa-music .fa-node .fa-node-js .fa-npm .fa-phoenix-framework  .fa-phoenix-squadron .fa-phoenix-phone .fa-php .fa-poop .fa-portrait .fa-project-diagram .fa-product-hunt .fa-print .fa-raspberry-pi .fa-react  .fa-readme .fa-redhat .fa-centos .fa-reply-all .fa-sd-card .fa-share .fa-sim-card .fa-slack .fa-snowflake .fa-spa .fa-wrench */
   ],
