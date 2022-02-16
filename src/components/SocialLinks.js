@@ -1,4 +1,5 @@
 import React from 'react';
+import { OutboundLink } from "gatsby-plugin-google-gtag";
 import config from '../../config';
 
 export default function SocialLinks() {
@@ -15,7 +16,7 @@ export default function SocialLinks() {
                   <h4 className="text-uppercase m-0">Email</h4>
                   <hr className="my-4" />
                   <div className="small text-black-50">
-                    <a href={`mailto:${config.email}`}>{config.email}</a>
+                    <OutboundLink href={`mailto:${config.email}`}>{config.email}</OutboundLink>
                   </div>
                 </div>
               </div>
@@ -63,9 +64,9 @@ export default function SocialLinks() {
                   <hr className="my-4" />
                   <div className="small text-black-50">
                     <i className={`fas fa-hand-point-right mr-1`}></i>
-                    <a target="_blank" rel="noreferrer" href={`${config.linkedin}`}>
+                    <OutboundLink target="_blank" rel="noreferrer" href={`${config.linkedin}`}>
                       {config.linkedin}
-                    </a>
+                    </OutboundLink>
                   </div>
                 </div>
               </div>
@@ -80,9 +81,9 @@ export default function SocialLinks() {
           {config.socialLinks.map(social => {
             const { icon, url } = social;
             return (
-              <a key={url} href={url} className={`mx-2`}>
+              <OutboundLink key={url} href={url} className={`mx-2`}>
                 <i className={`fab ${icon}`}></i>
-              </a>
+              </OutboundLink>
             );
           })}
         </div>
