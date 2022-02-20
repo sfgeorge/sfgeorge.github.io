@@ -54,6 +54,12 @@ const IndexPage = () => (
     <section id="projects" className="projects-section bg-light">
       <div className="container">
 
+        <div className="row">
+          <div className="col-lg-8 mx-auto">
+            <h2 className="text-center mb-5">Expertise</h2>
+          </div>
+        </div>
+
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
