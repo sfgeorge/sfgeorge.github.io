@@ -44,7 +44,7 @@ const IndexPage = () => (
               teams work best when their managers strive to provide an
               environment of trust, career development and encouragement to push
               to one's full potential.  I've been successfully leading teams to
-              grow and produce results for over 10 years.
+              grow and produce their best results for over 10 years.
             </p>
           </div>
         </div>
