@@ -1,5 +1,16 @@
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 5rem 0 ;
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 1.0)} 0%,
+      #{fade-out($black, 0.01)} 73%,
+      $black 100%
+    ),
+    url('../images/bg-signup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   .card {
     border: 0;
     border-bottom: 0.25rem solid $primary;
