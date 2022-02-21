@@ -69,7 +69,7 @@ const IndexPage = () => (
             <div className="featured-text text-center text-lg-left">
               <h4>Engineering Management</h4>
               <p className="text-black-50 mb-0">
-                I foster team growth all throughout recruitment, interviewing,
+                I foster team development throughout recruitment, interviewing,
                 onboarding, mentoring, ownership, goal-setting, engagement, and
                 career growth.
               </p>
