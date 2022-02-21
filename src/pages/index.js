@@ -90,7 +90,7 @@ const IndexPage = () => (
                     I have extensive experience keeping security and
                     observability as shift-left and forefront concerns,
                     implementing projects that need to adhere to compliance
-                    standards including HIPAA, SOC 2, and PCI.
+                    standards including SOC 2, HIPAA, and PCI.
 
                   </p>
                   <p className="my-2 text-white-50">
