@@ -11,6 +11,8 @@ import Header from '../components/Header';
 
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
+import teamImage from '../assets/images/team-grey-people-on-snow-mountain-mountain-mountain-image-crop3-large.jpg';
+import securityImage from '../assets/images/cascade-ice-person-standing-on-white-rock-near-waterfall-mountain-mountain-image-crop1.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
 
 const IndexPage = () => (
@@ -62,7 +64,7 @@ const IndexPage = () => (
 
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={teamImage} alt="Team climbing a steep, snowy mountain" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
@@ -78,7 +80,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={securityImage} alt="Person in the cold standing in front of a waterfall" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -154,7 +156,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={bgMaster} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
