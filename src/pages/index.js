@@ -141,7 +141,7 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">VoIP / Telecommunications</h4>
                   <p className="my-2 text-white-50">
-                    My team was responsible for the development and operation of a critical voice communications platform that continues to secure over $8M annual recurring revenue.  The highly-performant platform manages dynamic Interactive Voice Response (IVR) applications in real time, handling hundreds of incoming calls per second using Adhearsion on JRuby.
+                    My team was responsible for the development and operation of a critical voice communications platform that continues to secure over $8M annual recurring revenue.  The highly-performant platform manages dynamic Interactive Voice Response (IVR) applications in real time, handling hundreds of incoming calls per second using Asterisk PBX, Adhearsion, and JRuby.
                   </p>
                   <p className="my-2 text-white-50">
                     I have extensive experience with network packet capture analysis for VoIP troubleshooting, optimization and security purposes.  I'm well-versed with several VoIP technologies including SIP, RTP, MRCPv2, and WebRTC.
