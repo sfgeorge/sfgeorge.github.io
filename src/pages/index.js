@@ -70,7 +70,7 @@ const IndexPage = () => (
               <h4>Engineering Management</h4>
               <p className="text-black-50 mb-0">
                 I foster team development throughout recruitment, interviewing,
-                onboarding, mentoring, ownership, goal-setting, engagement, and
+                onboarding, mentoring, ownership, goal-setting, engagement and
                 career growth.
               </p>
             </div>
@@ -90,7 +90,7 @@ const IndexPage = () => (
                     I have extensive experience keeping security and
                     observability as shift-left and forefront concerns,
                     implementing projects that need to adhere to compliance
-                    standards including SOC 2, HIPAA, and PCI.
+                    standards including SOC 2, HIPAA and PCI.
 
                   </p>
                   <p className="my-2 text-white-50">
@@ -116,7 +116,7 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Cloud and Infrastructure</h4>
                   <p className="my-2 text-white-50">
-                    Managing CI/CD of SaaS solutions to multi-cloud GCP and AWS environments, I have direct experience with AWS WAF, CloudFront, EC2, S3, Google Storage, and related services.
+                    Managing CI/CD of SaaS solutions to multi-cloud GCP and AWS environments, I have direct experience with AWS WAF, CloudFront, EC2, S3, Google Storage and related services.
                   </p>
                   <p className="my-2 text-white-50">
                     With regards to containerization, I have experience with Docker Compose, turning applications into services that are easily scaled up/down.
@@ -141,10 +141,10 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">VoIP / Telecommunications</h4>
                   <p className="my-2 text-white-50">
-                    My team was responsible for the development and operation of a critical voice communications platform that secures over $8M annual recurring revenue.  The highly-performant platform manages dynamic Interactive Voice Response (IVR) applications in real time, handling hundreds of incoming calls per second using Asterisk PBX, Adhearsion, and JRuby.
+                    My team was responsible for the development and operation of a critical voice communications platform that  secures over $8M annual recurring revenue.  The highly-performant platform manages dynamic Interactive Voice Response (IVR) applications in real time, handling hundreds of incoming calls per second using Asterisk PBX, Adhearsion, and JRuby.
                   </p>
                   <p className="my-2 text-white-50">
-                    I have extensive experience with network packet capture analysis for VoIP troubleshooting, optimization and security purposes.  I'm well-versed with several VoIP technologies including SIP, RTP, MRCPv2, and WebRTC.
+                    I have extensive experience with network packet capture analysis for VoIP troubleshooting, optimization and security purposes.  I'm well-versed with several VoIP technologies including SIP, RTP, MRCPv2 and WebRTC.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -163,10 +163,10 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Web Development</h4>
                   <p className="my-2 text-white-50">
-                    Well-versed with Full-stack Ruby, Python and PHP development, I have designed, implemented, and maintained several significant e-commerce applications for over 20 years.  I have experience with SQL-compliant databases, Redis and NoSQL solutions including ElasticSearch.
+                    Well-versed with Full-stack Ruby, Python and PHP development, I have designed, implemented and maintained several significant e-commerce applications for over 20 years.  I have experience with SQL-compliant databases, Redis and NoSQL solutions including ElasticSearch.
                   </p>
                   <p className="my-2 text-white-50">
-                    On the frontend, I have experience with React, JQuery, plain-old JavaScript, and CSS.
+                    On the frontend, I have experience with React, JQuery, plain-old JavaScript and CSS.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
