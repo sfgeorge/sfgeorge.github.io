@@ -6,7 +6,6 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
-import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import demoImage1 from '../assets/images/demo-image-01.jpg';
