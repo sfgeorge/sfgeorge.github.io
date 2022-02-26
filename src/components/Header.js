@@ -41,7 +41,7 @@ export default class Header extends Component {
       >
         <div className="container">
           <span className="navbar-brand">
-            {config.siteTitle}
+            {config.heading}
           </span>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}

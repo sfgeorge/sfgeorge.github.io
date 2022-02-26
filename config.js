@@ -1,8 +1,7 @@
 module.exports = {
-  siteTitle: 'Stephen George', // <title>
   siteBaseURL: 'https://ehlo.mx',
-  manifestName: 'Grayscale',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'Stephen George : Portfolio',
+  manifestShortName: 'S. George', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
