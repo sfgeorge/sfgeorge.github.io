@@ -12,11 +12,11 @@ exports.createPages = async ({ actions }) => {
   const { createPage } = actions;
 
   const openGraphImage = createOpenGraphImage(createPage, {
-    path: config.featureImage.path,
+    path: config.openGraph.featureImage.path,
     component: path.resolve(`src/pages/index.js`),
     size: {
-      width: config.featureImage.width,
-      height: config.featureImage.height,
+      width: config.openGraph.featureImage.width,
+      height: config.openGraph.featureImage.height,
     },
     waitCondition: "networkidle0",
     context: {

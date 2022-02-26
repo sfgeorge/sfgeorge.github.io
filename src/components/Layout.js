@@ -30,9 +30,9 @@ class Layout extends Component {
               ]}
             >
               <html lang="en" />
-              <meta property="og:image" content={config.siteBaseURL + config.featureImage.path} />
-              <meta property="og:image:width" content={config.featureImage.width} />
-              <meta property="og:image:height" content={config.featureImage.height} />
+              <meta property="og:image" content={config.siteBaseURL + config.openGraph.featureImage.path} />
+              <meta property="og:image:width" content={config.openGraph.featureImage.width} />
+              <meta property="og:image:height" content={config.openGraph.featureImage.height} />
             </Helmet>
             <div className={'page-top'}>{children}</div>
           </>

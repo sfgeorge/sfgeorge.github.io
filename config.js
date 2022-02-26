@@ -35,9 +35,11 @@ module.exports = {
   address: 'Northern Virginia, USA',
   linkedin: 'https://www.linkedin.com/in/sfgeorge/',
 
-  featureImage: {
-    path:   '/og-image/index.png',
-    width:  1200,
-    height: 506,
-  }
+  openGraph: {
+    featureImage: {
+      path:   '/og-image/index.png',
+      width:  1200,
+      height: 627,
+    },
+  },
 };
