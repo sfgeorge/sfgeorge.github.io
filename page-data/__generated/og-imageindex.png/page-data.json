@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/__generated/og-imageindex.png",
+    "result": {"pageContext":{"description":"Still image of the homepage","ogImage":{"path":"/og-image/index.png","size":{"width":1200,"height":506},"__ogImageGenerationContext":{"componentPath":"__generated/og-imageindex.png","imgPath":"public/og-image/index.png","size":{"width":1200,"height":506},"waitCondition":"networkidle0"}}}},
+    "staticQueryHashes": ["3649515864"]}
