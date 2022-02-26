@@ -40,9 +40,9 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          <span className="navbar-brand">
             {config.siteTitle}
-          </a>
+          </span>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
