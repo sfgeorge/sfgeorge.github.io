@@ -41,7 +41,7 @@ const IndexPage = () => (
             <h2 className="text-white mb-4">About Me</h2>
             <p className="text-white-50">
 
-              I am a passionate Engineering Manager who embodies the belief that
+              I am a passionate Engineering Manager who holds the belief that
               teams work best when their managers strive to provide an
               environment of trust, career development and encouragement to push
               to one's full potential.  I've been successfully leading teams to
@@ -70,10 +70,11 @@ const IndexPage = () => (
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
               <h4>Engineering Management</h4>
-              <p className="text-black-50 mb-0">
-                I foster team development throughout recruitment, interviewing,
-                onboarding, mentoring, ownership, goal-setting, engagement and
-                career growth.
+              <p className="text-black-50">
+                {config.openGraph.description.line1}
+              </p>
+              <p className="text-black-50">
+                {config.openGraph.description.line2}
               </p>
             </div>
           </div>

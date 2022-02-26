@@ -36,6 +36,10 @@ module.exports = {
   linkedin: 'https://www.linkedin.com/in/sfgeorge/',
 
   openGraph: {
+    description: {
+      line1: "I foster project success through team development and iterative improvement.",
+      line2: "My experience in team building and development includes recruitment, interviewing, onboarding, mentoring, ownership, goal-setting, engagement and career growth.",
+    },
     featureImage: {
       path:   '/og-image/index.png',
       width:  1200,
