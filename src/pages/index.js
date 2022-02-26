@@ -27,6 +27,7 @@ const IndexPage = () => (
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
               About
+              <i className={`fas fa-angle-double-down align-middle ml-2`}></i>
             </a>
           </Scroll>
         </div>
