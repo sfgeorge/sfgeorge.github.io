@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "stephen-george-portfolio",
   "version": "0.0.2",
-  "description": "Gatsby.js V4 starter template based on Grayscale by startbootstrap",
+  "description": "Stephen George's Gatsby.js V4 portfolio site based on Grayscale by startbootstrap",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sfgeorge/sfgeorge.github.io.git"
@@ -39,9 +39,12 @@
     "prettier": "^2.4.1"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-grayscale"
+    "Stephen George",
+    "Manager",
+    "Engineering Manager",
+    "Cyber Security",
+    "Software Engineer",
+    "Web Development"
   ],
   "license": "MIT",
   "bugs": {
