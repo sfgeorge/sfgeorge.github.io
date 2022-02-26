@@ -30,10 +30,11 @@ class Layout extends Component {
               ]}
             >
               <html lang="en" />
-              <meta property="og:description" content={config.openGraph.description.line1 + " " + config.openGraph.description.line2} />
+              <meta property="og:description" content={config.openGraph.description.line1 + " \n\n" + config.openGraph.description.line2} />
               <meta property="og:image" content={config.siteBaseURL + config.openGraph.featureImage.path} />
               <meta property="og:image:width" content={config.openGraph.featureImage.width} />
               <meta property="og:image:height" content={config.openGraph.featureImage.height} />
+              <meta property="og:image:alt" content="Still image of the homepage" />
             </Helmet>
             <div className={'page-top'}>{children}</div>
           </>
