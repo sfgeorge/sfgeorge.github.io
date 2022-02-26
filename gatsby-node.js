@@ -4,21 +4,23 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
+const config = require('./config');
 const { createOpenGraphImage } = require("gatsby-plugin-open-graph-images");
+const path = require(`path`);
 
 exports.createPages = async ({ actions }) => {
   const { createPage } = actions;
 
   const openGraphImage = createOpenGraphImage(createPage, {
-    path: "/og-image/index.png",
-    component: path.resolve(`src/templates/index.og-image.js`),
+    path: config.featureImage.path,
+    component: path.resolve(`src/pages/index.js`),
     size: {
-      width: 400,
-      height: 50,
+      width: config.featureImage.width,
+      height: config.featureImage.height,
     },
     waitCondition: "networkidle0",
     context: {
-      description: "a image created with gatsby-plugin-open-graph-images",
+      description: "Still image of the homepage",
     },
   });
 };

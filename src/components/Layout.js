@@ -1,3 +1,4 @@
+import config from '../../config';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
@@ -29,6 +30,9 @@ class Layout extends Component {
               ]}
             >
               <html lang="en" />
+              <meta property="og:image" content={config.siteBaseURL + config.featureImage.path} />
+              <meta property="og:image:width" content={config.featureImage.width} />
+              <meta property="og:image:height" content={config.featureImage.height} />
             </Helmet>
             <div className={'page-top'}>{children}</div>
           </>

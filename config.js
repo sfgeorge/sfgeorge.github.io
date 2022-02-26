@@ -1,5 +1,6 @@
 module.exports = {
   siteTitle: 'Stephen George', // <title>
+  siteBaseURL: 'https://ehlo.mx',
   manifestName: 'Grayscale',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -33,4 +34,10 @@ module.exports = {
   phone: null,
   address: 'Northern Virginia, USA',
   linkedin: 'https://www.linkedin.com/in/sfgeorge/',
+
+  featureImage: {
+    path:   '/og-image/index.png',
+    width:  1200,
+    height: 506,
+  }
 };
