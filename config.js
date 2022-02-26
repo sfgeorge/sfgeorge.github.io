@@ -35,6 +35,12 @@ module.exports = {
   address: 'Northern Virginia, USA',
   linkedin: 'https://www.linkedin.com/in/sfgeorge/',
 
+  metrics: {
+    trackingIds: [
+      "G-E34ZY6FS3P",
+    ],
+  },
+
   openGraph: {
     description: {
       line1: "I foster project success through team development and iterative improvement.",
