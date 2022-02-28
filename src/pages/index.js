@@ -90,11 +90,9 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">Cyber Security</h4>
                   <p className="my-2 text-white-50">
-                    I have extensive experience keeping security and
-                    observability as shift-left and forefront concerns,
-                    implementing projects that need to adhere to compliance
+                    Keeping security and observability as shift-left and forefront concerns, I've
+                    successfully implemented projects that need to adhere to strict compliance
                     standards including SOC 2, HIPAA and PCI.
-
                   </p>
                   <p className="my-2 text-white-50">
                     From hands-on experience with penetration testing tools and
@@ -147,7 +145,7 @@ const IndexPage = () => (
                     My team was responsible for the development and operation of a critical voice communications platform that  secures over $8M annual recurring revenue.  The highly-performant platform manages dynamic Interactive Voice Response (IVR) applications in real time, handling hundreds of incoming calls per second using Asterisk PBX, Adhearsion, and JRuby.
                   </p>
                   <p className="my-2 text-white-50">
-                    I have extensive experience with network packet capture analysis for VoIP troubleshooting, optimization and security purposes.  I'm well-versed with several VoIP technologies including SIP, RTP, MRCPv2 and WebRTC.
+                    I have experience with network packet capture analysis for VoIP troubleshooting, optimization and security purposes.  I'm well-versed with several VoIP technologies including SIP, RTP, MRCPv2 and WebRTC.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
