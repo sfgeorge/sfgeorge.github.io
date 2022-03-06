@@ -167,10 +167,10 @@ const IndexPage = () => (
                     Well-versed with Full-stack Ruby, Python and PHP development, I have designed, implemented and maintained several significant e-commerce applications for over 20 years.  I have experience with SQL-compliant databases, Redis and NoSQL solutions including ElasticSearch.
                   </p>
                   <p className="my-2 text-white-50">
-                    On the frontend, I have experience involving React, JQuery, classic JavaScript, CSS and many others.
+                    On the frontend I have experience involving React, JQuery, SASS as well as many others.
                   </p>
                   <p className="my-2 text-white-50">
-                    <i>This</i> site was developed with Node JS, React, SASS and <i class="fas fa-heart" aria-hidden="true" title="love"></i><span class="sr-only">love</span>.
+                    <i>This</i> site was made with Node.js, React, GraphQL and <i class="fas fa-heart" aria-hidden="true" title="love"></i><span class="sr-only">love</span>.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
